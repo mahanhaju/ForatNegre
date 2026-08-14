@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	overflow: hidden;
+}
+
+/*============== the game ===================*/
+
+#topbar{
+	position: absolute;
+	width: 100%;
+	height: 5%;
+}
+
+button{
+	display: inline;
+	float: left;
+	background-color: #cccccc;
+	border: 0;
+	font-family: tahoma;
+	font-size: 3vw;
+	padding: 0.5%;
+}
+
+@media only screen and (min-width: 1000px){
+	button{
+		font-size: 25px;
+	}
+}
+
+#pause{
+	margin-left: 1.5%;
+}
+
+#star, #planet, #moon{
+	margin-left: 1.5%;
+}
+
+#planet{
+	color: brown;
+}
+
+#score{
+	margin-right: 12%;
+	margin-top: 3%;
+	color: gray;
+	float: right;
+	font-family: verdana;
+	font-size: 3vw;
+	line-height: 0px;
+}
+
+#trace{
+	margin-left: 4%;
+	font-family: tahoma;
+}
+
+#showinst{
+	width: 100px;
+	clear: both;
+	cursor: pointer;
+	padding-top: 10px;
+	margin-left: 1.5%;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4175A5;
+}
+
+#inst{
+	display: none;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	right: 20%;
+	padding: 10px;
+	font-family: verdana;
+	font-size: 1.8vw;
+	color: black;
+	background-color: gray;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#closeinst{
+	float: right;
+	color: brown;
+	font-size: 2vw;
+	cursor: pointer;
+}
+
+#state{
+	display: none;
+	position: absolute;
+	top: 12%;
+	bottom: 20%;
+	right: 20%;
+	left: 20%;
+	width: 440px;
+	height: 105px;
+	margin: 100px auto;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 20px;
+	font-family: tahoma;
+	font-size: 25px;
+	text-align: center;
+	background-color: whitesmoke;
+}
+
+#scorespan{
+	display: inline-block;
+	padding-top: 14px;
+	font-weight: bold;
+}
+
+#ng{
+	display: none;
+	position: absolute;
+	top: 42%;
+    right: 20%;
+    left: 20%;
+	width: 170px;
+	margin: 100px auto;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 14px;
+	font-family: tahoma;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #E9E9EA;
+	color: #086C10;
+	cursor:pointer;
+}
+
+#aboutlink{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-family: verdana;
+	font-size: 1.5vw;
+	color: gray;
+}
+
+#about{
+	padding-left: 2%;
+	margin-top: 2%;
+	font-family: verdana;
+	font-size: 2.5vw;
+}
