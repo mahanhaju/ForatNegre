@@ -1,31 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ForatNegre</title>
-<meta charset="UTF-8">
-<meta name="keywords" content="html5, game, web, canvas, javascript, app">
+    <title>ForatNegre</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height">
 
-<link rel="stylesheet" type="text/css" href="style.css">
-</body>
-
-<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height" />
-
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<div id="topbar">
-		<button id="pause">Pausa</button>
-		<button id="star">Estrella</button>
-		<button id="planet">planeta</button>
-		<button id="moon">lluna</button>
-		
-	</div>
-	<canvas id="canvas" width="800" height="600"></canvas>
 
-	</p>
-	
-	<span id="state"></span>
-	
-	<script src="main.js"></script>
+<body>
+
+    <!-- MENÚ PRINCIPAL -->
+    <div id="menuExperiments">
+
+        <h1>Simulador del forat negre </h1>
+
+        <button onclick="mostrarExperimento(1)">
+            Experiment 1 — Massa
+        </button>
+
+        <button onclick="mostrarExperimento(2)">
+            Experiment 2 — Distància
+        </button>
+
+        <button onclick="mostrarExperimento(3)">
+            Experiment 3 — Velocitat d'escapament
+        </button>
+
+    </div>
+
+
+    <!-- MENÚ DE CADA EXPERIMENTO -->
+    <div id="seleccionExperimento">
+
+        <h2 id="tituloExperimento"></h2>
+
+        <div id="botonesExperimento"></div>
+
+        <button id="volverMenuExperimentos">
+            ← Tornar al menú
+        </button>
+
+    </div>
+
+
+    <!-- SIMULADOR -->
+    <div id="simulador">
+
+        <div id="topbar">
+            <button id="pause">Pausa</button>
+            <button id="star">Estrella</button>
+            <button id="planet">Planeta</button>
+            <button id="moon">Lluna</button>
+            <button id="menu">Menú</button>
+        </div>
+
+        <canvas id="canvas" width="800" height="600"></canvas>
+
+        <span id="state"></span>
+
+    </div>
+
+
+    <script src="main.js"></script>
+
 </body>
 </html>
-<canvas id="canvas" width="800" height="600" style="background-color: #111111; border: 1px solid white;"></canvas>
