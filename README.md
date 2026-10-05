@@ -1,0 +1,1 @@
+Simulador digital desenvolupat com a part del meu Treball de Recerca (TDR) per estudiar com la gravetat d'un forat negre afecta la trajectòria i l'òrbita dels cossos que s'hi apropen. Esta inspirat en:https://www.circularbit.com/theblackhole/
